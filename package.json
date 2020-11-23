@@ -15,7 +15,7 @@
   "scripts": {
     "testing": "jest",
     "start:dev": "nodemon",
-    "build": "tsc",
+    "build": "tsc -p . --sourcemap",
     "start": "node build/index.js",
     "ts-coverage": "typescript-coverage-report"
   },
