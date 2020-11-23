@@ -6,3 +6,4 @@
 !package-lock.json
 !node-modules
 !jest.config.js
+!__tests__
