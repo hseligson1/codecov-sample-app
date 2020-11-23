@@ -3,7 +3,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 COPY tsconfig*.json ./
 COPY ./src ./src
-RUN npm ci --quiet && npm run build && npm run-script ts-coverage
+RUN npm ci --quiet && npm run build
 
 FROM node:12.13.0-alpine
 WORKDIR /app

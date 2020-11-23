@@ -1,6 +1,0 @@
-codecov:
-  token: $CODECOV_TOKEN
-  ci:
-    - "codefresh"
-  notify:
-    wait_for_ci: true
