@@ -4,7 +4,7 @@ COPY package*.json ./
 COPY tsconfig*.json ./
 COPY ./__tests__ ./src
 COPY ./src ./src
-RUN npm install && npm run build && npm run testing
+RUN npm install && npm run build
 
 FROM node:12.13.0-alpine
 WORKDIR /app
